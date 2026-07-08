@@ -4,6 +4,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Campanion.Shared</PackageId>
+    <Title>Campanion Shared Library</Title>
   </PropertyGroup>
 
 </Project>
