@@ -6,17 +6,18 @@ namespace Campanion.Shared.Dtos.AuthDtos
 {
     public class RegistrationDto
     {
-        public string AppUserId = string.Empty;
-        public string AppUserType = string.Empty;
-        public string AppUserUsername = string.Empty;
-        public string AppUserPassword = string.Empty;
-        public string AppUserEmail = string.Empty;
-        public string AppUserPhone = string.Empty;
-        public string AppUserFirstName = string.Empty;
-        public string AppUserLastName = string.Empty;
-        public string AppUserStreetAddress = string.Empty;
-        public string AppUserCity = string.Empty;
-        public string AppUserProvince = string.Empty;
-        public string AppUserPostalCode = string.Empty;
+        public string AppUserId { get; set; } = string.Empty;
+        public string AppUserType { get; set; } = string.Empty;
+        public string AppUserUsername { get; set; } = string.Empty;
+        public string AppUserPassword { get; set; } = string.Empty;
+        public string AppUserEmail { get; set; } = string.Empty;
+        public string AppUserPhone { get; set; } = string.Empty;
+        public required string AppUserFirstName { get; set; } = string.Empty;
+        public required string AppUserLastName { get; set; } = string.Empty;
+        public string AppUserStreetAddress { get; set; } = string.Empty;
+        public string AppUserCity { get; set; } = string.Empty;
+        public required string AppUserProvince { get; set; } = string.Empty;
+        public required string AppUserCountry { get; set; } = string.Empty;
+        public string AppUserPostalCode { get; set; } = string.Empty;
     }
 }
