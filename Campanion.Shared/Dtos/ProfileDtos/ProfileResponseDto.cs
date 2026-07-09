@@ -6,5 +6,10 @@ namespace Campanion.Shared.Dtos.ProfileDtos
 {
     public class ProfileResponseDto
     {
+        public string ProfileId { get; set; }
+        public string ProfileUsername { get; set; }
+        public string ProfileImagePath { get; set; }
+        public string ProfileCreatedAt { get; set; }
+        public string AppUserId { get; set; }
     }
 }
