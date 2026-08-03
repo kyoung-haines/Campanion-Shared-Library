@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>Campanion.Shared</PackageId>
     <Title>Campanion Shared Library</Title>
-    <Version>1.1.4</Version>
+    <Version>1.1.5</Version>
   </PropertyGroup>
 
 </Project>
