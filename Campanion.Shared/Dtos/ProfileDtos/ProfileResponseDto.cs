@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Campanion.Shared.Dtos.CampgroundDtos;
+using Campanion.Shared.Dtos.TripDtos;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,5 +15,7 @@ namespace Campanion.Shared.Dtos.ProfileDtos
         public string ProfileImagePath { get; set; }
         public string ProfileCreatedAt { get; set; }
         public string AppUserId { get; set; }
+        public FavouriteCampgroundsDto ProfileUserFavouriteCampgrounds { get; set; }
+        public UpcomingTripsDto ProfileUserUpcomingTrips { get; set; }
     }
 }
