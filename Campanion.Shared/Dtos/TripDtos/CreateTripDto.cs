@@ -19,6 +19,6 @@ namespace Campanion.Shared.Dtos.TripDtos
         // this will need to refactored
         // this should be a list of users (friends) that have been added
         // it won't be strings I don't think
-        public List<string> TripAttendees { get; set; }
+        public List<TripAttendeeDto> TripAttendees { get; set; }
     }
 }
