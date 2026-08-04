@@ -12,6 +12,6 @@ namespace Campanion.Shared.Dtos.TripDtos
         public string TripStartDate { get; set; }
         public string TripEndDate { get; set; }
         public string TripCreationDate { get; set; }
-        public List<object> TripAttendees { get; set; }
+        public List<TripAttendeeDto> TripAttendees { get; set; }
     }
 }
