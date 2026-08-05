@@ -8,14 +8,14 @@ namespace Campanion.Shared.Dtos.ProfileDtos
 {
     public class ProfileResponseDto
     {
-        public string ProfileId { get; set; }
-        public string ProfileUsername { get; set; }
-        public string ProfileUserProvince { get; set; }
-        public string ProfileUserCountry { get; set; }
-        public string ProfileImagePath { get; set; }
-        public string ProfileCreatedAt { get; set; }
-        public string AppUserId { get; set; }
-        public AppUserFavouriteCampgroundsDto ProfileUserFavouriteCampgrounds { get; set; }
-        public UpcomingTripsDto ProfileUserUpcomingTrips { get; set; }
+        public string ProfileId { get; set; } = string.Empty;
+        public string ProfileUsername { get; set; } = string.Empty;
+        public string ProfileUserProvince { get; set; } = string.Empty;
+        public string ProfileUserCountry { get; set; } = string.Empty;
+        public string ProfileImagePath { get; set; } = string.Empty;
+        public string ProfileCreatedAt { get; set; } = string.Empty;
+        public string AppUserId { get; set; } = string.Empty;
+        public AppUserFavouriteCampgroundsDto ProfileUserFavouriteCampgrounds { get; set; } = new();
+        public UpcomingTripsDto ProfileUserUpcomingTrips { get; set; } = new(new UpcomingTripDto());
     }
 }

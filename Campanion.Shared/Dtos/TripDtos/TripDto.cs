@@ -6,12 +6,12 @@ namespace Campanion.Shared.Dtos.TripDtos
 {
     public class TripDto
     {
-        public string TripId { get; set; }
-        public string? TripName { get; set; }
-        public string TripStatus { get; set; }
-        public string TripStartDate { get; set; }
-        public string TripEndDate { get; set; }
-        public string TripCreationDate { get; set; }
-        public List<TripAttendeeDto> TripAttendees { get; set; }
+        public string TripId { get; set; } = string.Empty;
+        public string? TripName { get; set; } = string.Empty;
+        public string TripStatus { get; set; } = string.Empty;
+        public string TripStartDate { get; set; } = string.Empty;
+        public string TripEndDate { get; set; } = string.Empty;
+        public string TripCreationDate { get; set; } = string.Empty;
+        public List<TripAttendeeDto> TripAttendees { get; set; } = new();
     }
 }

@@ -7,7 +7,7 @@ namespace Campanion.Shared.Dtos.AuthDtos
 {
     public class RegisterResponseDto
     {
-        public string Token { get; set; }
-        public ProfileResponseDto Profile { get; set; }
+        public string Token { get; set; } = string.Empty;
+        public ProfileResponseDto Profile { get; set; } = string.Empty;
     }
 }

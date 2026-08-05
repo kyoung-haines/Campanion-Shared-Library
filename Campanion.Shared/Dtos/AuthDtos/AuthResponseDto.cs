@@ -7,7 +7,7 @@ namespace Campanion.Shared.Dtos.AuthDtos
     public class AuthResponseDto
     {
         public string Token { get; set; } = string.Empty;
-        public string UserId { get; set; }
-        public DateTime TokenExpiry { get; set; }
+        public string UserId { get; set; } = string.Empty;
+        public DateTime TokenExpiry { get; set; } = new();
     }
 }

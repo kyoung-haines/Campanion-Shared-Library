@@ -6,7 +6,7 @@ namespace Campanion.Shared.Dtos.TripDtos
 {
     public class UpcomingTripDto
     {
-        public string TripName { get; set; }
-        public string TripCampground { get; set; }
+        public string TripName { get; set; } = string.Empty;
+        public string TripCampground { get; set; } = string.Empty;
     }
 }
