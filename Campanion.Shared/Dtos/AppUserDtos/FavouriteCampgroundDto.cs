@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Campanion.Shared.Dtos.CampgroundDtos
+namespace Campanion.Shared.Dtos.AppUserDtos
 {
     public class FavouriteCampgroundDto
     {
