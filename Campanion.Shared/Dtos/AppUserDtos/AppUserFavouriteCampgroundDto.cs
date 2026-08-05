@@ -7,6 +7,7 @@ namespace Campanion.Shared.Dtos.AppUserDtos
     public class AppUserFavouriteCampgroundDto
     {
         public string CampgroundId { get; set; }
+        public string AppUserId { get; set; }
         public string CampgroundName { get; set; }
         public string CampgroundImagePath { get; set; }
     }
