@@ -1,4 +1,4 @@
-﻿using Campanion.Shared.Dtos.CampgroundDtos;
+﻿using Campanion.Shared.Dtos.AppUserDtos;
 using Campanion.Shared.Dtos.TripDtos;
 using System;
 using System.Collections.Generic;
