@@ -16,6 +16,6 @@ namespace Campanion.Shared.Dtos.AppUserDtos
         public string AppUserProvince { get; set; } = string.Empty;
         public string AppUserCountry { get; set; } = string.Empty;
         public string AppUserPostalCode { get; set; } = string.Empty;
-        public List<string> AppUserFavouriteCampgrounds { get; set; } = string.Empty;
+        public List<string> AppUserFavouriteCampgrounds { get; set; } = new();
     }
 }
