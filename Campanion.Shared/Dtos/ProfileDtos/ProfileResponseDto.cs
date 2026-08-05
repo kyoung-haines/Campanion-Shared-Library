@@ -15,7 +15,7 @@ namespace Campanion.Shared.Dtos.ProfileDtos
         public string ProfileImagePath { get; set; }
         public string ProfileCreatedAt { get; set; }
         public string AppUserId { get; set; }
-        public FavouriteCampgroundsDto ProfileUserFavouriteCampgrounds { get; set; }
+        public AppUserFavouriteCampgroundsDto ProfileUserFavouriteCampgrounds { get; set; }
         public UpcomingTripsDto ProfileUserUpcomingTrips { get; set; }
     }
 }
