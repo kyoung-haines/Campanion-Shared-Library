@@ -9,4 +9,8 @@
     <Version>1.1.9</Version>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\CampgroundDtos\" />
+  </ItemGroup>
+
 </Project>
