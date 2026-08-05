@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Campanion.Shared.Dtos.AppUserDtos
 {
-    public class FavouriteCampgroundDto
+    public class AppUserFavouriteCampgroundDto
     {
         public string CampgroundId { get; set; }
         public string CampgroundName { get; set; }
