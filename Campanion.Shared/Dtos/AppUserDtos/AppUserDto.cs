@@ -6,6 +6,7 @@ namespace Campanion.Shared.Dtos.AppUserDtos
 {
     public class AppUserDto()
     {
+        public string AppUserId { get; set; }   
         public string AppUserEmail { get; set; } = string.Empty;
         public string AppUserPhone { get; set; } = string.Empty;
         public string AppUserType { get; set; } = string.Empty;
