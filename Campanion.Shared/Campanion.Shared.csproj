@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <PackageId>Campanion.Shared</PackageId>
     <Title>Campanion Shared Library</Title>
-    <Version>1.1.18</Version>
+    <Version>1.1.20</Version>
     <Description>Shared library to connect the MAUI frontend with the the ASP .NET Core API on the backend. Will not serve any other purpose than developing the Campanion native mobile application.</Description>
   </PropertyGroup>
 
